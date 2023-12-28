@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <div>
+        <label for="lvl-name">Họ và tên</label>
+        <input type="text" id="lbl-name" name="name" placeholder="Họ và tên" />
+      </div>
+      <div>
+        <label for="lbl-age">Tuổi</label>
+        <input
+          type="number"
+          id="lbl-age"
+          name="age"
+          placeholder="Tuổi..."
+          min="18"
+          max="50"
+          step="0.1"
+        />
+      </div>
+      <div>
+        <label for="lbl-avatar">Avatar</label>
+        <input type="file" id="lvl-avatar" name="avatar" />
+      </div>
+      <div>
+        <label for="lbl-search">Search</label>
+        <input type="date" id="lbl-birthday" name="birthday" />
+      </div>
+      <div>
+        <label for="lbl-color">Chọn màu</label>
+        <input type="color" id="lbl-color" name="color" />
+      </div>
+      <div>
+        <label for="Giới tính"></label>
+        <label>
+          <input type="radio" name="gender" value="unknown" />Không xác định
+        </label>
+        <label> <input type="radio" name="male" value="male" />Nam </label>
+        <!-- Phần name để checked thì sẽ mặc định là nam -->
+        <label> <input type="radio" name="femele" value="Nữ" /> Nữ </label>
+      </div>
+      <div>
+        <label>Bạn biết đến F8 qua đâu</label>
+        <label>
+          <input type="checkbox" name="source" value="1" />Tin đồn
+        </label>
+        <label>
+          <input type="checkbox" name="source" value="2" />Youtube
+        </label>
+        <label>
+          <input type="checkbox" name="source" value="3" />Facebook
+        </label>
+        <div>
+          <label for="lbl-price">Giá</label>
+          <input
+            type="range"
+            id="lbl-price"
+            name="price"
+            value="0"
+            step="0.1"
+          />
+        </div>
+      </div>
+      <div>
+        <label for="lbl-message">Tin nhắn</label>
+        <textarea
+          name="message"
+          id="lbl-message"
+          cols="30"
+          rows="10"
+          placeholder="Tin nhắn...."
+        >
+Nội dung tin nhắn</textarea
+        >
+      </div>
+      <div>
+        <label for="lbl-province">Tình/Thành Phố</label>
+        <select name="Province" id="lbl-province" multiple>
+          <option value="">Chọn Tỉnh/TP</option>
+          <!-- Để value=0 để không chọn được -->
+          <option value="HN">Hà Nội</option>
+          <option value="HCM">HCM</option>
+          <option value="ĐN">Đà Nẵng</option>
+          <!-- Nếu muốn chọn ĐN thì dùng Selected -->
+          <option value="NĐ">Nam Định</option>
+        </select>
+      </div>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
