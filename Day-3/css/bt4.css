@@ -1,0 +1,21 @@
+.Country {
+  margin-top: 40px;
+  position: relative;
+  text-align: center;
+}
+
+body {
+  width: 200%;
+}
+
+.inform {
+  padding: 60px;
+  background-color: bisque;
+  width: 70%;
+  height: 900%;
+  margin-top: 30px;
+}
+
+.google-map {
+  flex: 1;
+}

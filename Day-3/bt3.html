@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bt3.css" />
+  </head>
+  <body>
+    <div class="inform">
+      <form action="">
+        <table>
+          <tr>
+            <th>
+              <label for="Username">Username</label>
+            </th>
+            <td>
+              <input type="text" />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="Password">Password</label>
+            </th>
+            <td>
+              <input type="password" />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="Province">City of Employment</label>
+            </th>
+            <td>
+              <input type="text" />
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="web">Web Server</label>
+            </th>
+            <td>
+              <select>
+                <option value="1">Choose a server</option>
+                <option value="2">Server 1</option>
+                <option value="3">Server 2</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="Role">Please specify your role</label>
+            </th>
+            <td>
+              <label for="Admin">
+                <input type="radio" name="Role" id="Admin" />Admin <br />
+              </label>
+              <label for="Engineer">
+                <input type="radio" name="Role" id="Engineer" />Engineer <br />
+              </label>
+              <label for="Manager">
+                <input type="radio" name="Role" id="Manager" />Manager <br />
+              </label>
+              <label for="Guest">
+                <input type="radio" name="Role" id="Guest" />Guest <br />
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label for="following"> Single sign-on to the following:</label>
+            </th>
+            <td>
+              <label for="Mail">
+                <input type="checkbox" name="Single" id="Mail" />Mail <br />
+              </label>
+              <label for="Payroll">
+                <input type="checkbox" name="Single" id="Payroll" />Payroll
+                <br />
+              </label>
+              <label for="Self-Service">
+                <input
+                  type="checkbox"
+                  name="Single"
+                  id="Self-Service"
+                />Self-Service <br />
+              </label>
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <button>Login</button>
+              <button>Reset</button>
+            </td>
+          </tr>
+        </table>
+      </form>
+    </div>
+  </body>
+</html>

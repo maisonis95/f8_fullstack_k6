@@ -1,0 +1,12 @@
+.inform {
+  width: 350px;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 50px;
+  background-color: cadetblue;
+  height: 300px;
+}
+
+table th {
+  text-align: left;
+}

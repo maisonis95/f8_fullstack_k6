@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+}
+
+.heading {
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+}
+
+.heading::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  display: inline-block;
+  width: 80px;
+  height: 3px;
+  background: violet;
+}
+
+.items {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: 40px;
+  justify-content: space-evenly;
+}
+
+.item {
+  width: 30%;
+  margin-bottom: 50px;
+  display: flex;
+  align-items: top;
+}
+
+.messege {
+  margin-left: 15px;
+}
+
+.item p:first-child {
+  font-style: oblique;
+  color: grey;
+  width: 300px;
+}
+
+.item p:nth-child(2) {
+  font-weight: bold;
+}

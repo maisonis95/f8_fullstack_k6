@@ -1,0 +1,28 @@
+body {
+  width: 100%;
+}
+
+.box {
+  margin-top: 50px;
+  border: 1;
+  background-color: rgb(41, 171, 191);
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  width: fit-content;
+  text-align: center;
+  margin: auto;
+}
+
+.heading {
+  text-align: center;
+}
+
+.mess {
+  text-align: center;
+}
+
+.plus {
+  margin: auto;
+  width: fit-content;
+}
