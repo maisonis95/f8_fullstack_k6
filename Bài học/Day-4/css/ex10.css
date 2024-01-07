@@ -1,0 +1,44 @@
+/* 
+Attribute Selector
+- [Tên thuộc tính]: Chọn thẻ hhtml có thuộc tính là 'tên thuộc tính'
+ */
+/* ul li a[target] {
+  color: red;
+} */
+
+/* 1 -------*/
+/* - [tenthuoctinh="giatri"]: chọn thẻ html có thuộc tính là tenthuoctinh và giá trị là giatri
+ */
+/* ul li a[href="fullstack.edu.vn"]
+{
+  color: red;
+} */
+
+/* 2 ----- */
+/* ul li a[href^="https://fullstack.edu.vn"]
+{
+  color: red;
+  /* thêm ^ nếu muốn thuộc tính có giá trị bắt đầu/
+ */
+
+/* 3 ------*/
+/* ul li a[href*="fullstack.edu.vn"] {
+  color: red;
+} */
+/* Thêm dấu * nếu muốn chứa thuộc tính có giá trị */
+
+/* Chọn $ nếu muốn tìm kết thúc đuôi bằng gì 
+ul li a[href$="course"] {
+  color: red;
+} */
+
+/* Bài tập: Chọn các thẻ html có class bắt đầu bằng title và nằm sau thẻ H1
+.content h1 ~ [class^="title"] {
+  color: red;
+} */
+
+/* Chọn tất cẩ các thẻ html: *
+Ví dụ: chọn tất cả thẻ html nằm trong content */
+.content * {
+  color: red;
+}

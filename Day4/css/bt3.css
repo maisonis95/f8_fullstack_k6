@@ -1,0 +1,109 @@
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: x-large;
+}
+.menu {
+  position: relative;
+  top: 30px;
+  width: 80%;
+  height: 50px;
+  margin-left: 10%;
+  text-align: center;
+  background: rgb(181, 195, 201);
+  font-size: medium;
+}
+
+.tab:hover {
+  background-color: rgb(84, 104, 184);
+}
+.items {
+  position: relative;
+  top: 30px;
+  left: 100px;
+  border-spacing: 100px;
+}
+
+/* Item:1 */
+.box-1 {
+  height: auto;
+  position: relative;
+  width: 200px;
+}
+.box-1 img {
+  max-width: 100%;
+  transition: all 1s;
+}
+
+.box-1 .img-change {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 1;
+}
+.box-1:hover .img-change {
+  opacity: 0;
+}
+
+/* Item 2 */
+.box-2 {
+  height: auto;
+  position: absolute;
+  width: 200px;
+}
+.box-2 img {
+  max-width: 100%;
+  transition: all 1s;
+}
+
+.box-2 .img-change {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 1;
+}
+.box-2:hover .img-change {
+  opacity: 0;
+}
+
+/* item 3 */
+.box-3 {
+  height: auto;
+  position: relative;
+  width: 200px;
+}
+.box-3 img {
+  max-width: 100%;
+  transition: all 1s;
+}
+
+.box-3 .img-change {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 1;
+}
+.box-3:hover .img-change {
+  opacity: 0;
+}
+
+/* item 4 */
+.box-4 {
+  height: auto;
+  position: relative;
+  width: 200px;
+}
+.box-4 img {
+  max-width: 100%;
+  transition: all 1s;
+}
+
+.box-4 .img-change {
+  position: absolute;
+  top: 0;
+  right: 0;
+  opacity: 1;
+}
+.box-4:hover .img-change {
+  opacity: 0;
+}

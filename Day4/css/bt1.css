@@ -1,0 +1,21 @@
+:hover::placeholder {
+  color: orange;
+  background: gray;
+}
+
+:hover.btn {
+  color: white;
+  background: orange;
+}
+.FTR {
+  background: cadetblue;
+  margin-top: 40px;
+  padding: 60px;
+  text-align: center;
+  margin: auto;
+  width: fit-content;
+}
+
+h2 {
+  color: aliceblue;
+}

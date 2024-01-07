@@ -1,0 +1,52 @@
+/*
+Chọn thành phần đứng sau ~
+- Ngang hàng
+- Cùng thuộc 1 cha
+
+
+*/
+ul ~ h2 {
+  color: red;
+}
+
+/* Chọn thành phần liền kề: +
+- Ngang hàng
+- Cùng thuộc 1 cha */
+
+ul + h2 {
+  color: red;
+}
+
+.todos label {
+  display: block;
+  /* block: tạo khối */
+}
+
+.todos input:checked + span {
+  color: gray;
+  text-decoration: line-through;
+  /* line-through: gạch dòng */
+}
+
+/* câu1: Chọn thẻ H2 có chữ Hoàng An 02  */
+/* .box p + h2 + h2 {
+  color: red;
+} */
+/* câu2: Chọn các thẻ H2 từ "Hoàng An 02" đến hết  */
+/* .box h2 ~ h2 {
+  color: red;
+} */
+/* Câu 3: Chọn thẻ H2 có từ "Hoàng An 01 và Hoàng An 02 */
+.box p + h2 {
+  color: red;
+}
+.box p + h2 + h2 {
+  color: red;
+}
+/* Chọn gộp Selector
+selector1, selector 2, selector 3,...selector {
+}
+.box p + h2,
+.box p + h2 + h2 {
+    color: red
+}
