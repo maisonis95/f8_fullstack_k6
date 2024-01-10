@@ -1,0 +1,30 @@
+/* Tìm từ khóa Emmit Cheat Seat 
+Thuộc tính Font-size: thay đổi cỡ chữ
+Các đơn vị trong CSS
+1. Đơn vị tuyệt đối
+- px
+- pt = 1.3px
+
+2. Đơn vị tương đối
+- em (kế thừa theo thành phần cha)
+- rem (kế thừa theo thành phần root)
+- % (kế thừa theo trang)
+- vh (viewport height)
+- vw (viewport width)
+- fr (grid css)
+*/
+html {
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+}
+
+.wrapper .content {
+  font-size: 1.5em;
+}
+
+.wrapper .content p {
+  font-size: 1.5em;
+}

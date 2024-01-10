@@ -1,0 +1,71 @@
+/* 
+Thuộc tính line-height: Dãn dòng, thiết lập chiều cao cho dòng
+Thuộc tính Font-Family: thiết lập font chữ cho văn bản
+*/
+
+/* p {
+  font-size: 20px;
+  line-height: 1.5;
+} */
+/* 
+Họ font không chân: sans-serif
+Họ font có chân: serif
+Độ dày: font - weight: normal 100|200|300|400|500|600..|bold
+Độ nghiêng: font-style: normal|italic
+
+*** tìm Font Weight List ***
+
+Thuộc tính: text-decoration
+
+Thuộc tính: text-transform: Thay đổi chữ thường, hoa
++ None
++ Lowercase
++ Uppercase
++ Capitalize
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Light.ttf");
+  font-weight: 300;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Italic.ttf");
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Regular.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Italic.ttf");
+  font-weight: 400;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato-BoldItalic.ttf");
+  font-weight: 700;
+  font-style: italic;
+}
+p {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+}

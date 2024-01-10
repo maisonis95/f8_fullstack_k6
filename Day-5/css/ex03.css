@@ -1,0 +1,38 @@
+h1,
+p {
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.items {
+  margin: auto 32px;
+  text-align: center;
+  flex: 1;
+  margin-top: 80px;
+}
+
+.items {
+  box-shadow: 2px 2px 2px rgb(171, 170, 170);
+}
+
+button {
+  background-color: rgb(255, 165, 0);
+  width: 100px;
+  height: 50px;
+}
+
+.image {
+  color: orange;
+  border: 1px solid orangered;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  left: 140px;
+}
