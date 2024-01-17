@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+i {
+  padding: 5px;
+}
+a {
+  text-decoration: none;
+  color: rgb(170, 35, 35);
+  font-size: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 30px;
+  background-color: antiquewhite;
+  align-items: center;
+  border: 1px solid #cfc0c0;
+}
+
+.form {
+  width: 20%;
+  text-transform: capitalize;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+}
+
+header ul.menu > li {
+  padding: 20px 30px;
+  border-right: 1px solid #cfc0c0;
+  position: relative;
+}
+
+/* Thẻ dropmenu */
+header ul.menu > li > ul {
+  position: absolute;
+  background-color: rgb(239, 205, 205);
+  list-style: none;
+  top: 64px;
+  width: 150px;
+  display: none;
+}
+
+header ul.menu > li:hover > ul {
+  display: block;
+}
+
+header ul.menu > li > ul > li {
+  padding: 10px;
+  border-bottom: 1px solid #fff;
+}
+
+header ul.menu > li > ul > li:hover {
+  background-color: rgb(250, 243, 238);
+}

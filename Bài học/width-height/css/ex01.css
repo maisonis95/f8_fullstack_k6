@@ -1,0 +1,40 @@
+/* 
+Các thuộc tính liên quan đến width - height chỉ hỗ trợ ở thẻ block
+Các đơn vị:
+% --> Tỉ lệ với thành phần cha
+vw --> Tỉ lệ với chiều rộng của viewport (khung nhìn)
+vh --> Tỉ lệ với chiều cao của viewport (khung nhìn)
+
+Thuộc tính max-width: Chiều rộng lớn nhất
+Thuộc tính min-width: Chiều rộng nhỏ nhất
+
+
+*/
+
+/* .box {
+  width: 200px;
+  height: 400px;
+  background: yellow;
+} */
+
+/* .image {
+  width: 300px;
+} */
+
+.box {
+  border: 1px solid red;
+  /* max-width: 400px;
+  min-width: 100px; */
+  width: 300px;
+  height: 200px;
+}
+
+.content {
+  width: 800px;
+  border: 1px solid green;
+  height: 100px;
+}
+
+.box img {
+  max-width: ;
+}

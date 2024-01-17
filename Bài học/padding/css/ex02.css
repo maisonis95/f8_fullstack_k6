@@ -1,0 +1,27 @@
+/* 
+Thuộc tính margin: Căn lề (ngoài border)
+1. margin: value
+1. margin: value1 value 2
+1. margin: value1 value 2 value3
+1. margin: value1 value 2 value3 value4
+- margin-top
+- margin-left
+- margin-right
+- margin-bottom
+
+Hỗ trợ các đơn vị: % px em rem
+Đơn vị % vẫn tỉ lệ theo width của thẻ cha
+Lưu ý: margin sẽ hỗ trợ giá trị auto
+
+*/
+
+.box {
+  border: 1px solid red;
+  width: 200px;
+  padding: 20px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* margin-inline: auto; */
+  margin: 0 auto;
+  text-align: center;
+}
