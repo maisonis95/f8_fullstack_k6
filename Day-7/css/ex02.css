@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  font-size: 35px;
+  color: aliceblue;
+  margin: 0px 0px 20px 0px;
+}
+.info > ul > li {
+  font-size: 23px;
+  color: aliceblue;
+  margin: 0 20px;
+  list-style: none;
+}
+.info > ul {
+  display: flex;
+}
+
+.image2 {
+  position: relative;
+  bottom: 275px;
+  left: 65px;
+}
+
+.info {
+  position: relative;
+  bottom: 193px;
+  left: 400px;
+}
+
+.form > ul {
+  font-size: 25px;
+  display: flex;
+  list-style: none;
+  margin-left: 44%;
+}
+
+.form > ul > li {
+  margin: 15px 20px;
+}
+
+.form > ul > li:hover {
+  border-bottom: 3px solid red;
+}

@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h2 {
+  color: rgb(218, 75, 75);
+  font-size: 40px;
+}
+
+p {
+  font-size: 25px;
+}
+
+a {
+  font-size: 20px;
+}
+
+.inform2 {
+  border: 1px solid #7b3a3a;
+  background-color: rgb(196, 65, 65);
+  width: 160px;
+  height: 70px;
+  color: antiquewhite;
+  position: relative;
+  left: 65%;
+  top: -40px;
+  font-size: 28px;
+  text-align: center;
+  padding: 10px 13px;
+  border-radius: 15px;
+}
+
+.form {
+  border: 1px solid #c9bcbc;
+  border-radius: 15px;
+  padding: 20px 20px;
+  width: 700px;
+  height: auto;
+  padding: 30px 30px;
+  margin-top: 25%;
+  margin-left: 28%;
+  background-color: #fbdddd;
+  opacity: 0.8;
+}
+
+body {
+  width: 80%;
+  background-image: url(https://cdn.houseviet.vn/images/project/23042023/ha-noi-melody-residences-cover.jpg);
+}
