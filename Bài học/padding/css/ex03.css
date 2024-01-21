@@ -1,0 +1,38 @@
+/* 
+1. Cả 2 đều là số dương --> Lấy margin lớn hơn
+2. Cả 2 trái dấu --> Cộng Margin
+3. Cả 2 cũng là số âm --> Lấy margin nhỏ hơn
+
+Thu hẹp lề thành phần con
+- border
+- position: absolute và fixed
+- display: flex | inline-block | table | table-cell | grid
+- float: left | right
+
+Giải pháp: Chuyển thành padding
+
+*/
+
+/* .block-1 {
+  border: 1px solid red;
+  margin-bottom: 50px;
+}
+
+.block-2 {
+  border: 1px solid green;
+  margin-top: 40px;
+} */
+
+.box {
+  background: green;
+  color: #fff;
+  text-align: center;
+  /* border: 1px solid transparent;
+  transparent: ẩn thuộc tính */
+  /* position: absolute;
+  display: flex; */
+}
+
+.box h1 {
+  padding: 30px 0;
+}

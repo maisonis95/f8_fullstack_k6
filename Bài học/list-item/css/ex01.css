@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.box {
+  width: 300px;
+  margin: 30px auto;
+  border: 1px solid red;
+}
+
+.box ul {
+  list-style-position: outside;
+  list-style-type: circle;
+}
+
+/* 
+- list-style-position: inside | outside 
+- list-style-type: disc | circle | square | decimal | decimal-leading-zero | upper-alpha |lower-alpha| upper-roman | lower-roman
+- list-style-image: thay biể tượng bằng ảnh -->không nên dùng ( không chỉnh được kích thước ) --> Thay thế bằng background
+- list-style: position type image
+*/

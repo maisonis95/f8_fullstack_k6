@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  color: black;
+}
+
+.service {
+  margin: 100px 0;
+}
+
+.service_inner {
+  max-width: 1400px;
+  padding: 0 50px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+  position: relative;
+  font-size: 40px;
+  padding: 10px 0;
+  font-weight: 400px;
+}
+
+h1::after {
+  content: "";
+  position: absolute;
+  border-bottom: 2px solid red;
+  width: 400px;
+  height: 45px;
+  left: 35%;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  padding: 50px 20px;
+  width: 30%;
+  border-radius: 10px;
+  background: #ffffff;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.card:hover {
+  background-color: #eee;
+}
+
+.box > i {
+  font-size: 50px;
+  margin: 5px 0;
+  color: red;
+}
+
+.box > h3 {
+  font-size: 30px;
+  padding: 15px 0;
+}
