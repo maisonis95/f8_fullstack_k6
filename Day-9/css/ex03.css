@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+}
+
+.container {
+  text-align: center;
+  width: 800px;
+}
+
+h2 {
+  font-size: 40px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 20px;
+  margin: 10px 0;
+  font-weight: 400px;
+}
+
+.form-name {
+  display: flex;
+  justify-content: center;
+}
+
+.name {
+  padding: 15px 110px 15px 5px;
+  margin: 10px 15px;
+}
+
+.select-info {
+  padding: 15px 195px 15px 5px;
+  margin: 10px 15px;
+}
+
+button {
+  padding: 15px 40px;
+  margin: 10px auto;
+  border-radius: 100px;
+  background-color: rgb(48, 48, 134);
+  color: aliceblue;
+  transition: all 0.3s;
+}
+
+button:hover {
+  background-color: rgb(110, 222, 116);
+}
+
+.form:hover {
+  border-color: aqua;
+}

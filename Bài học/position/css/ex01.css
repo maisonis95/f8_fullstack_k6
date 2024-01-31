@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.box {
+  border: 1px solid red;
+  width: 300px;
+  height: 300px;
+  margin: 30px auto;
+}
+
+.box h2 {
+  background: green;
+  color: #fff;
+  width: 100px;
+  height: 50px;
+  border: 1px solid #fff;
+}
+
+.box h2:nth-child(2) {
+  /* left: calc(100% - 100px); */
+}
+.box h2:nth-child(2) {
+  /* position: absolute;
+  background: green;
+  width: auto;
+  height: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  inset: 10px 30px 50px 70px; */
+  position: relative;
+  top: 30px;
+  left: 30px;
+  z-index: 1;
+}
+
+.hox h2:nth-child(3) {
+  position: relative;
+  top: 10px;
+  left: 10px;
+}
+/* 
+position:
+- static
+-reliative
+- absolute
+- fixed (xuất hiện nhiều ở header)
+Các thuộc tính liên quan:
+- top
+- left
+- right
+- bottom
+- z-index
+- inset
+
+calc() --> Hàm của CSs giúp đưa các công thức toán học và tự quy đổi đơn vị
+
+*/
